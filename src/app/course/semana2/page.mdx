@@ -1,0 +1,546 @@
+import { Image, Center } from "@mantine/core";
+import { AspectRatio } from "@mantine/core";
+import Link from 'next/link'
+
+
+## Editores de código para desarrollo web 
+
+
+### Sublime Text: 
+
+Es un editor de código pago con una licencia perpetua. Es rápido y ligero, y tiene una amplia gama de características, incluyendo soporte para HTML, CSS, JavaScript, PHP, Python, C++, y muchas otras.
+
+<Link href="https://www.sublimetext.com/" target="_blank">Sublime Text</Link>
+
+### Atom: 
+
+Es un editor de código gratuito y de código abierto desarrollado por la comunidad. Es altamente personalizable y tiene una amplia gama de características, incluyendo soporte para HTML, CSS, JavaScript, PHP, Python, C++, y muchas otras.
+
+<Link href="https://atom-editor.cc/" target="_blank">Atom</Link>
+
+### Visual Studio Code (VS Code)
+
+Es un editor de código desarrollado por Microsoft. Se ha convertido en una de las herramientas más populares para la programación y el desarrollo de software debido a su versatilidad, rendimiento y amplia comunidad de usuarios y extensiones.
+
+<Link href="https://code.visualstudio.com/" rel="noopener noreferrer" target="_blank"> Visual Studio Code </Link>
+
+### HTML5
+
+HTML5 es la quinta versión del lenguaje de marcado de hipertexto (HTML), que se utiliza para estructurar y presentar contenido en la web. HTML es el lenguaje fundamental utilizado para crear páginas web y definir su estructura y contenido. HTML5 trajo consigo una serie de mejoras y nuevas características en comparación con las versiones anteriores de HTML, lo que lo convirtió en un estándar ampliamente adoptado para el desarrollo de sitios web y aplicaciones web.
+
+Algunas de las características y mejoras más importantes de HTML5 incluyen:
+
+- Elementos semánticos: HTML5 introduce nuevos elementos semánticos que permiten a los desarrolladores etiquetar el contenido de una manera más significativa. Esto ayuda a los motores de búsqueda y a los navegadores a comprender mejor la estructura del contenido y su contexto.
+
+- Compatibilidad multimedia mejorada: HTML5 incluye elementos como **audio** y **video** que permiten la incorporación de contenido multimedia sin necesidad de complementos o tecnologías externas, como Adobe Flash.
+
+- Canvas y gráficos: HTML5 presenta el elemento **canvas**, que permite a los desarrolladores dibujar gráficos, animaciones y otros elementos visuales directamente en la página utilizando JavaScript.
+
+- API de arrastrar y soltar: HTML5 introdujo la posibilidad de arrastrar y soltar elementos en una página web, lo que facilita la implementación de interacciones intuitivas.
+
+- WebSockets: Esta tecnología permite la comunicación bidireccional en tiempo real entre un navegador y un servidor, lo que es especialmente útil para aplicaciones en tiempo real como chats y juegos multijugador.
+
+- Almacenamiento local: HTML5 proporciona métodos para almacenar datos en el lado del cliente, como el almacenamiento local y las bases de datos en el navegador, lo que permite a las aplicaciones funcionar sin conexión o de manera más eficiente.
+
+- Mejoras en formularios: HTML5 simplifica la creación de formularios web y agrega nuevos tipos de campos, validaciones y características de autocompletado.
+
+- Geolocalización: HTML5 permite a las aplicaciones web acceder a la ubicación geográfica del dispositivo del usuario, lo que es útil para servicios basados en la ubicación.
+
+- Accesibilidad mejorada: HTML5 promueve la creación de contenido web más accesible al proporcionar atributos y elementos diseñados para mejorar la experiencia de los usuarios con discapacidades.
+
+- Compatibilidad móvil: HTML5 se diseñó teniendo en cuenta los dispositivos móviles, lo que facilita la creación de sitios web y aplicaciones que funcionen bien en pantallas de diferentes tamaños y dispositivos móviles.
+
+## Elemento HTML
+
+Un elemento HTML es la unidad básica de construcción de una página web. Se compone de diferentes partes que trabajan juntas para definir el contenido y la presentación de la página.
+
+Partes de un elemento HTML:
+
+-   Etiqueta de apertura: Indica el inicio del elemento. Se compone de dos caracteres: `<` y el nombre del elemento.
+-   Atributos: Son características adicionales que se pueden añadir al elemento para modificar su comportamiento o presentación. Se escriben dentro de la etiqueta de apertura en forma de nombre-valor.
+-   Contenido: Es el texto o los elementos que se encuentran dentro del elemento.
+-   Etiqueta de cierre: Indica el final del elemento. Se compone de dos caracteres: `</` y el nombre del elemento.
+
+
+
+```html 
+<p>Este es un párrafo de texto.</p>
+<img src="imagen.jpg" alt="Texto alternativo de la imagen">
+```
+
+### Anatomía de un elemento HTML
+
+<Center>
+<Image p={'lx'}
+  radius="lg"  
+  src="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started/grumpy-cat-small.png"
+/>
+</Center>
+
+### Anidamiento de elementos HTML
+
+El anidamiento de elementos HTML es el proceso de colocar un elemento HTML dentro de otro elemento HTML. Este es un concepto importante en el lenguaje HTML, ya que permite crear estructuras complejas de contenido web.
+
+Para anidar elementos HTML, simplemente abre el elemento padre y luego abre el elemento hijo dentro del elemento padre. Cuando hayas terminado de usar el elemento hijo, ciérralo.
+
+Por ejemplo, el siguiente código muestra cómo anidar un elemento p dentro de un elemento div:
+
+```html  
+<ul>
+  <li>Elemento de la lista 1</li>
+  <li>
+    Elemento de la lista 2
+    <ul>
+      <li>Elemento de la sublista 1</li>
+      <li>Elemento de la sublista 2</li>
+    </ul>
+  </li>
+  <li>Elemento de la lista 3</li>
+</ul>
+
+```
+
+El elemento div es el elemento padre y el elemento p es el elemento hijo. El elemento p se encuentra dentro del elemento div.
+
+Puedes anidar elementos HTML de cualquier manera que desees. Sin embargo, es importante tener en cuenta que la estructura de tu contenido web debe ser lógica y fácil de entender.
+
+El anidamiento de elementos HTML puede ser una herramienta poderosa para crear estructuras complejas de contenido web. Sin embargo, es importante usarlo de manera responsable.
+
+## Comentarios HTML
+
+Los comentarios HTML son una forma de agregar notas al código HTML que no se mostrarán en la página web. Se pueden usar para proporcionar información sobre el código, explicar el propósito de una sección de código o simplemente para hacer anotaciones.
+
+Los comentarios HTML se escriben entre el símbolo de signo menos (-) y el signo mayor (>). Pueden ser una línea o múltiples líneas.
+
+### Comentario de una sola línea:
+
+```html  
+<!-- Este es un comentario de una sola línea -->
+```
+
+### Comentario de varias líneas:
+
+```html  
+<!-- Este es un comentario de varias líneas
+que se extiende a varias líneas -->
+```
+
+## Estructura básica de un documento HTML5
+---------------------------------------
+
+Un documento HTML5 se compone de dos partes principales:
+
+1\. La cabecera (head)
+
+-   Contiene información sobre el documento, como el título, la codificación de caracteres, el tipo de documento y las hojas de estilo.
+-   No se muestra en la página web.
+
+Etiquetas en la cabecera:
+
+-   `<!DOCTYPE html>`: Declara el tipo de documento como HTML5.
+-   `<html>`: Define el inicio del documento HTML.
+-   `<head>`: Define el inicio de la cabecera del documento.
+-   `<meta>`: Proporciona metadatos sobre el documento, como el título, la codificación de caracteres y la descripción.
+-   `<title>`: Define el título del documento.
+-   `<link>`: Vincula archivos externos al documento, como hojas de estilo o scripts.
+-   `<script>`: Inserta código JavaScript en el documento.
+-   `</head>`: Define el final de la cabecera del documento.
+
+2\. El cuerpo (body)
+
+-   Contiene el contenido visible de la página web, como texto, imágenes, vídeos y formularios.
+
+Etiquetas en el cuerpo:
+
+-   `<body>`: Define el inicio del cuerpo del documento.
+-   `<h1>` - `<h6>`: Definen encabezados de diferentes niveles.
+-   `<p>`: Define un párrafo de texto.
+-   `<ul>`: Define una lista sin orden.
+-   `<ol>`: Define una lista ordenada.
+-   `<dl>`: Define una lista de definiciones.
+-   `<strong>`: Define texto en negrita.
+-   `<em>`: Define texto en cursiva.
+-   `<a>`: Define un enlace a otra página web.
+-   `<img>`: Define una imagen.
+-   `<form>`: Define un formulario.
+-   `</body>`: Define el final del cuerpo del documento.
+-   `</html>`: Define el final del documento HTML.
+
+### Ejemplo de un documento HTML5 simple:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mi primera página web</title>
+</head>
+<body>
+  <h1>Hola mundo!</h1>
+  <p>Este es un párrafo de texto.</p>
+  <ul>
+    <li>Elemento de la lista 1</li>
+    <li>Elemento de la lista 2</li>
+    <li>Elemento de la lista 3</li>
+  </ul>
+</body>
+</html>
+```
+
+### Explicación de cada línea:
+
+1.  `<!DOCTYPE html>`: Declara el tipo de documento como HTML5.
+2.  `<html>`: Define el inicio del documento HTML.
+3.  `<head>`: Define el inicio de la cabecera del documento.
+4.  `<meta charset="utf-8">`: Define la codificación de caracteres como UTF-8.
+5.  `<title>Mi primera página web</title>`: Define el título del documento como "Mi primera página web".
+6.  `</head>`: Define el final de la cabecera del documento.
+7.  `<body>`: Define el inicio del cuerpo del documento.
+8.  `<h1>Hola mundo!</h1>`: Define un encabezado de nivel 1 con el texto "Hola mundo!".
+9.  `<p>Este es un párrafo de texto.</p>`: Define un párrafo de texto.
+10. `<ul>`: Define una lista sin orden.
+11. `<li>Elemento de la lista 1</li>`: Define un elemento de la lista sin orden.
+12. `<li>Elemento de la lista 2</li>`: Define un elemento de la lista sin orden.
+13. `<li>Elemento de la lista 3</li>`: Define un elemento de la lista sin orden.
+14. `</ul>`: Define el final de la lista sin orden.
+15. `</body>`: Define el final del cuerpo del documento.
+16. `</html>`: Define el final del documento HTML.
+
+## Etiquetas HTML
+
+### Etiqueta `<!DOCTYPE html>`?
+
+`<!DOCTYPE html>` es la declaración del tipo de documento (DOCTYPE) y es la primera línea de cualquier documento HTML válido. Le indica al navegador qué versión de HTML se utiliza en el documento. En este caso, es HTML5.
+
+¿Por qué es importante?
+
+Incluir esta declaración ayuda a asegurar que:
+
+-   El navegador interprete el documento correctamente.
+-   El navegador lo represente con precisión.
+-   Se active el modo estándar del navegador, lo que garantiza una representación coherente en diferentes navegadores.
+
+¿Cómo funciona?
+
+El navegador analiza la cadena `<!DOCTYPE html>` y la utiliza para determinar cómo interpretar el resto del documento. Si el navegador no reconoce la cadena, puede entrar en modo peculiaridades, lo que puede provocar una representación inconsistente del documento.
+
+### Etiqueta `<html>`
+
+La etiqueta `<html>` define el inicio de un documento HTML. Es una etiqueta contenedora que engloba todo el contenido de la página web, incluyendo la cabecera (`<head>`) y el cuerpo (`<body>`).
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi primera página web</title>
+</head>
+<body>
+  <h1>Hola mundo!</h1>
+</body>
+</html>
+```
+
+### Etiqueta `<head>`
+
+La etiqueta `<head>` define la cabecera de un documento HTML. Es una etiqueta contenedora que se encuentra dentro de la etiqueta `<html>` y que contiene información sobre la página web, como el título, la codificación de caracteres y las hojas de estilo.
+
+¿Por qué es importante?
+
+La etiqueta `<head>` es importante porque:
+
+-   Proporciona información meta sobre la página web que no se muestra al usuario.
+-   Permite controlar la apariencia de la página web mediante la inclusión de hojas de estilo.
+-   Permite la ejecución de scripts en el lado del cliente.
+
+¿Cómo funciona?
+
+El navegador analiza la etiqueta `<head>` y utiliza la información que contiene para:
+
+-   Mostrar el título de la página web en la barra de título del navegador.
+-   Aplicar las hojas de estilo a la página web.
+-   Ejecutar los scripts en el lado del cliente.
+
+Contenido de la etiqueta `<head>`:
+
+La etiqueta `<head>` puede contener los siguientes elementos:
+
+-   Metadatos: Información sobre la página web, como el título, la codificación de caracteres, la descripción y las palabras clave.
+-   Hojas de estilo: Archivos CSS que controlan la apariencia de la página web.
+-   Scripts: Archivos JavaScript que se ejecutan en el lado del cliente.
+
+### Etiquetas meta
+
+Las etiquetas meta son elementos HTML que proporcionan información adicional sobre una página web a los navegadores web y a los motores de búsqueda. Se encuentran en la sección `<head>` del documento HTML y no se muestran en la página web.
+
+Tipos de etiquetas meta:
+
+-   Meta charset: Define la codificación de caracteres del documento.
+```html
+<meta charset="utf-8">
+```
+-   Meta name="viewport": Define la configuración de la ventana gráfica para dispositivos móviles.
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+-   Meta name="description": Define una breve descripción de la página web.
+```html
+<meta name="description" content="Este es un ejemplo de página web">
+```
+-   Meta name="keywords": Define las palabras clave que se asocian con la página web.
+```html
+<meta name="keywords" content="html, css, javascript, web development">
+```
+-   Meta name="author": Define el autor de la página web.
+```html
+<meta name="author">
+```
+
+## Etiquetas semánticas en HTML
+
+Las etiquetas semánticas en HTML son elementos que van más allá de la simple estructura visual. Aportan significado al contenido de tu página web, permitiendo que tanto los navegadores como los motores de búsqueda comprendan mejor su organización y propósito. Esto facilita la accesibilidad, la navegabilidad y el SEO de tu sitio web.
+
+¿Por qué son importantes las etiquetas semánticas?
+
+-   Mejora la accesibilidad: Las etiquetas semánticas ayudan a los lectores de pantalla y a otros dispositivos de asistencia a comprender mejor el contenido de la página, lo que la hace más accesible para personas con discapacidades.
+-   Facilita la navegabilidad: Los navegadores pueden usar las etiquetas semánticas para crear una mejor experiencia de navegación para los usuarios, como por ejemplo, mostrando un resumen del contenido de una sección o permitiendo saltar a diferentes secciones de la página.
+-   Mejora el SEO: Los motores de búsqueda como Google utilizan las etiquetas semánticas para comprender mejor el contenido de tu página web y así indexarla y posicionarla de manera más precisa en los resultados de búsqueda.
+
+¿Cuáles son las etiquetas semánticas más comunes?
+
+### Etiquetas de estructura HTML
+
+Las etiquetas de estructura HTML son elementos que permiten organizar el contenido de una página web de forma semántica. Esto significa que no solo definen la apariencia del contenido, sino también su significado.
+
+1\. `<header>`:
+
+-   Define el encabezado de la página.
+-   Suele contener el logotipo, el nombre del sitio web, la navegación principal y otros elementos informativos.
+
+```html
+<header>
+  <h1>Mi sitio web</h1>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="about.html">Acerca de</a>
+    <a href="contact.html">Contacto</a>
+  </nav>
+</header>
+
+```
+
+2\. `<main>`:
+
+-   Define el contenido principal de la página.
+-   Es donde se encuentra el contenido central de la página, como el texto, las imágenes, los vídeos y los formularios.
+
+```html
+<main>
+  <h2>Título del artículo</h2>
+  <p>Este es el contenido principal del artículo.</p>
+  <img src="imagen.jpg" alt="Imagen del artículo">
+</main>
+
+```
+
+3\. `<section>`:
+
+-   Define una sección de contenido dentro de la página.
+-   Se puede usar para dividir el contenido principal en secciones temáticas.
+
+```html
+<section>
+  <h3>Primera sección</h3>
+  <p>Este es el contenido de la primera sección.</p>
+</section>
+
+<section>
+  <h3>Segunda sección</h3>
+  <p>Este es el contenido de la segunda sección.</p>
+</section>
+
+```
+
+4\. `<article>`:
+
+-   Define un artículo independiente dentro de la página.
+-   Suele tener un título, un autor, una fecha de publicación y un cuerpo de texto.
+
+```html
+<article>
+  <h2>Título del artículo</h2>
+  <p>Este es el contenido del artículo.</p>
+  <p>Autor: Jhon</p>
+  <p>Fecha de publicación: 2023-11-14</p>
+</article>
+
+```
+
+5\. `<aside>`:
+
+-   Define contenido secundario dentro de la página.
+-   Se puede usar para mostrar información adicional, como anuncios, barras laterales o widgets.
+
+```html
+<aside>
+  <h3>Anuncio</h3>
+  <p>Este es un anuncio.</p>
+</aside>
+
+```
+
+6\. `<footer>`:
+
+-   Define el pie de página.
+-   Suele contener información de copyright, información de contacto y otros enlaces útiles.
+
+```html
+<footer>
+  <p>Copyright &copy; 2023 Jhon</p>
+  <p>Contacto: <a href="mailto:info@Jhon.com">info@Jhon.com</a></p>
+</footer>
+```
+
+Beneficios de usar etiquetas de estructura:
+
+-   Mejoran la accesibilidad de la página web.
+-   Facilitan la comprensión del contenido por parte de los usuarios y los motores de búsqueda.
+-   Permiten un mejor control del diseño de la página web.
+
+### Etiquetas de texto HTML
+
+Las etiquetas de texto HTML permiten dar formato al texto de una página web, definiendo su estructura y estilo. 
+
+1\. Encabezados (`<h1> - <h6>`):
+
+-   Definen encabezados de diferentes niveles.
+-   Se utilizan para organizar el contenido de la página y crear una jerarquía visual.
+
+
+```html
+<h1>Título principal</h1>
+<h2>Subtítulo</h2>
+<h3>Tercer nivel de encabezado</h3>
+
+```
+
+2\. Párrafo (`<p>`):
+
+-   Define un párrafo de texto.
+-   Se utiliza para separar bloques de texto y mejorar la legibilidad.
+
+```html
+<p>Este es un párrafo de texto.</p>
+<p>Este es otro párrafo de texto.</p>
+
+```
+
+3\. Listas sin orden (`<ul>`):
+
+-   Definen una lista sin orden.
+-   Los elementos de la lista se muestran con viñetas.
+
+```html
+<ul>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  <li>Elemento 3</li>
+</ul>
+
+```
+
+4\. Listas ordenadas (`<ol>`):
+
+-   Definen una lista ordenada.
+-   Los elementos de la lista se muestran con números o letras.
+
+```html
+<ol>
+  <li>Primer elemento</li>
+  <li>Segundo elemento</li>
+  <li>Tercer elemento</li>
+</ol>
+
+```
+
+5\. Listas de definiciones (`<dl>`):
+
+-   Definen una lista de definiciones.
+-   Se utiliza para mostrar una lista de términos y sus definiciones.
+
+```html
+<dl>
+  <dt>Term1</dt>
+  <dd>Definición de Term1</dd>
+  <dt>Term2</dt>
+  <dd>Definición de Term2</dd>
+</dl>
+
+```
+
+6\. Negrita (`<strong>`):
+
+-   Define texto en negrita.
+-   Se utiliza para resaltar palabras o frases importantes.
+
+```html
+<strong>Este texto está en negrita.</strong>
+
+```
+
+7\. Cursiva (`<em>`):
+
+-   Define texto en cursiva.
+-   Se utiliza para dar énfasis a palabras o frases.
+
+```html
+<em>Este texto está en cursiva.</em>
+
+```
+
+Beneficios de usar etiquetas de texto:
+
+-   Mejoran la legibilidad del texto.
+-   Permiten resaltar información importante.
+-   Facilitan la comprensión del contenido por parte de los usuarios.
+
+### Otras etiquetas HTML
+
+1\. Enlaces (`<a>`):
+
+-   Definición: Define un enlace a otra página web, un archivo o una ubicación dentro de la misma página.
+
+```html
+<a href="https://www.Jhon.com">Visita Jhon</a>
+
+```
+
+2\. Imágenes (`<img>`):
+
+-   Definición: Define una imagen.
+
+```html
+<img src="imagen.jpg" alt="Imagen de un gato">
+
+```
+
+3\. Formularios (`<form>`):
+
+-   Definición: Define un formulario para que los usuarios puedan enviar información.
+
+```html
+<form action="enviar.php" method="post">
+  <input type="text" name="nombre">
+  <input type="submit" value="Enviar">
+</form>
+
+```
+
+4\. Fin del cuerpo (`<body>`):
+
+-   Definición: Define el final del cuerpo del documento.
+
+```html
+<body>
+</body>
+```
