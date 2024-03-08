@@ -37,5 +37,10 @@ export const sessions: { [key: string]: { link: string; label: string; date: Dat
         label: 'Semana 3 - Actividad',
         date: new Date('2024-3-1')
     },
+    semana4: {
+        link: 'semana4',
+        label: 'Semana 4 - Evaluación',
+        date: new Date('2024-3-8')
+    },
 
 };
